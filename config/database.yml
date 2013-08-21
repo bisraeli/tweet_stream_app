@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: tweet_stream_app_development
+  pool: 5
+  username: philco
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: tweet_stream_app_test
+  pool: 5
+  username: philco
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: tweet_stream_app_production
+  pool: 5
+  username: philco
+  password:
